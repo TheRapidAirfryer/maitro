@@ -74,7 +74,7 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .hero .env{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:56px;align-items:center;padding-block:clamp(36px,6vw,72px)}
 @media (max-width:900px){.hero .env{grid-template-columns:1fr;gap:36px}}
 .saludo{display:inline-block;background:var(--naranja-suave);color:var(--naranja-hondo);font-weight:800;font-size:.9rem;padding:6px 12px;border-radius:999px}
-.hero h1{font-size:clamp(2.6rem,6.2vw,4.6rem);margin-top:16px}
+.hero h1{font-size:clamp(2.6rem,6.2vw,4.6rem)}
 .hero h1 em{font-style:normal;color:var(--naranja)}
 .segmento{display:inline-flex;background:var(--superficie);border-radius:999px;padding:4px;margin-top:28px}
 .segmento button{font:700 .95rem var(--f);border:0;background:transparent;color:var(--tinta-suave);padding:9px 16px;border-radius:999px;cursor:pointer}
@@ -236,7 +236,6 @@ footer{border-top:1px solid var(--linea);margin-top:clamp(56px,7vw,96px)}
 <section class="hero" id="inicio">
   <div class="env">
     <div>
-      <span class="saludo">¿Qué tal, maitro? 👋</span>
       <h1>Encontrá a tu <em>maitro</em> de confianza.</h1>
       <div class="segmento" role="tablist" aria-label="¿Qué buscás?">
         <button type="button" role="tab" id="tab-cliente" aria-selected="true">Necesito un maitro</button>
